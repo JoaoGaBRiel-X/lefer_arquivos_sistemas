@@ -1,0 +1,5 @@
+# Configuracoes de usuario
+[mysqldump]
+ user=root
+ password=xd
+ port=3308

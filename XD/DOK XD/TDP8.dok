@@ -1,0 +1,109 @@
+[$BUSINESS_DATA_GLOBAL]
+<<IF=[$OBS]|<>|>>
+<<IF=[$ENTITYVAT]|EQ|>>
+
+<<IF=[$ENTITYVAT]|<>|>>
+[$ENTITYVAT]
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|1>>
+DINHEIRO;      [$TOTAL]
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|2>>
+DINHEIRO;      [$TOTAL]
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|3>>
+PIX  ;         [$TOTAL]
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|4>>
+CREDITO ;      [$TOTAL]
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|6>>
+DEBITO  ;      [$TOTAL]
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|5>>
+DEBITO  ;      [$TOTAL]
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|7>>
+CREDITO ;      [$TOTAL]
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|8>>
+CHEQUE ;       [$TOTAL]
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|9>>
+CASHBACK IFOOD;[$TOTAL]
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|12>>
+CARTEIRA ;     [$TOTAL]
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|1>>
+<<SET=[$TDP],0>>
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|2>>
+<<SET=[$TDP],1>>
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|3>>
+<<SET=[$TDP],1>>
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|4>>
+<<SET=[$TDP],1>>
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|6>>
+<<SET=[$TDP],0>>
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|7>>
+<<SET=[$TDP],0>>
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|8>>
+<<SET=[$TDP],0>>
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|9>>
+<<SET=[$TDP],1>>
+<<ENDIF>>
+<<IF=[$PAYMENTTYPE]|EQ|12>>
+<<SET=[$TDP],0>>
+<<ENDIF>>
+<<IF=[$ENTITYVAT]|<>|>>
+<<SET=[$TDP],1>>
+<<ENDIF>>
+<<IF=[$TDP]|EQ|0>>
+0
+<<ELSE>>
+1
+<<ENDIF>>
+<<! ##################################################################################
+<<! #################################################### PRODUCT LINES FOR EPSON TM-88
+<<! ##################################################################################
+<<IF=[$PRINTERDRIVERID]|EQ|2>>
+<<!
+<<DBVAL = BEGIN,0>>
+[*IF:TOTAL|<|0] [*SET,HASDEDUCT,ID]
+<<!
+<<! ITENS NORMAIS
+<<! 
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|EQ|1] [*ITEMKEYID,6,LEFT] 
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|EQ|1] [*QUANTITY,7,RIGHT,3]
+<<IF=[$SERVICETAXVALUE]|EQ|0,00>>
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|EQ|1] [*TOTAL,6,LEFT,2] [*TEXT:f]
+<<ENDIF>>
+<<IF=[$SERVICETAXVALUE]|<>|0,00>>
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|EQ|1] [*TOTAL,7,LEFT,2]
+<<ENDIF>>
+<<!
+<<! ITENS TIPO MENU
+<<!
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|EQ|4] [*IF:SORTLEVEL|>|1] [*ITEMKEYID,6,LEFT] 
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|EQ|4] [*IF:SORTLEVEL|>|1] [*QUANTITY,7,RIGHT,3]
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|EQ|4] [*IF:SORTLEVEL|>|1] [*TOTAL,9,LEFT,2]
+<<!
+<<! ITENS TIPO PIZZA
+<<!
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|EQ|6] [*IF:SORTLEVEL|<|1] [*ITEMKEYID,6,LEFT] 
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|EQ|6] [*IF:SORTLEVEL|<|1] [*QUANTITY,7,RIGHT,3]
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|EQ|6] [*IF:SORTLEVEL|<|1] [*TOTAL,7,LEFT,2]
+<<DBVAL = END>>
+<<DBVAL = RESET>>
+<<IF=[$SERVICETAXVALUE]|<>|0,00>>
+9999
+   1,00
+[$SERVICETAXVALUE]f
+<<ENDIF>>

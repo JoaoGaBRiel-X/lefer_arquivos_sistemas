@@ -1,0 +1,401 @@
+<<! ############# Layout Editado por João Gabriel Carvalho - Lefer Automacao Comercial
+<<! ############# Data: 25/05/2022
+<<! ###################################################################################################################
+<<! #################################################################### LICENCE SECTION (Editable inside the software)
+<<! ###################################################################################################################
+[$BUSINESS_DATA_GLOBAL]
+<<! ###################################################################################################################
+<<! ########################################################################################### DOCUMENT NUMBER SECTION
+<<! ###################################################################################################################
+
+[$DOCUMENTID]
+[$COPYINFO]
+
+<<SET=[$HASDEDUCT],0>>
+<<! ###################################################################################################################
+<<! ############################################################################################### CLIENT DATA SECTION
+<<! ###################################################################################################################
+<<!  #### FONTSIZE SETUP FOR THIS SECTION
+<<IF=[$PRINTERTYPE]|EQ|G>>
+<<!  ############################## GRAPHIC MODE PRINTER
+<<FONTSIZE=8>>
+<<FONTNAME=Courier New>>
+<<FONTBOLD=TRUE>>
+<<ELSE>>
+<<!  ############################## DIRECT MODE PRINTER
+<<ESCAPE=ESC ! D>>
+<<ENDIF>>
+<<! ############################### REMOVE NAME TITLE 
+<<SET=[$NAMETITLE],[$TRANSLATE:20001]:>>
+<<IF=[$INVOICETYPE]|EQ|FS>>
+<<SET=[$NAMETITLE],>>
+<<ENDIF>>
+<<IF=[$ENTITYVAT]|<>|999999990>>
+<<! ###################################### NAME AND VAT NUMBER (IF CLIENT WAS SELECTED)
+[$NAMETITLE] [$ENTITYDESCRIPTION]
+[$TRANSLATE:20002]: [$ENTITYVAT]
+<<ELSE>>
+<<!  ######################################################## IF NO CLIENT CHOSEN THEN:
+[$TRANSLATE:20002]: [$ENTITYDESCRIPTION]
+<<ENDIF>>
+<<!  ############################################################ OTHER CLIENT DETAILS
+<<IF=[$ENTITYADDRESS]|<>|>>
+[$ENTITYADDRESS]
+<<ENDIF>>
+<<IF=[$ENTITYPOSTALCODE]|<>|>>
+[$ENTITYPOSTALCODE]
+<<ENDIF>>
+<<IF=[$ENTITYCITY]|<>|>>
+[$ENTITYCITY]
+<<ENDIF>>
+<<IF=[$ENTITYSTATE]|<>|>>
+[$ENTITYSTATE]
+<<ENDIF>>
+<<! ###################### Next line fields: TaxPointDate
+<<IF=[$TAXPOINTDATE]|<>|>>
+[$TAXPOINTDATE]
+<<ENDIF>>
+<<IF=[$EXTERNALREFERENCE]|<>|>>
+[$TRANSLATE:39449,RIGHT,12] [$EXTERNALREFERENCE]
+<<ENDIF>>
+<<! #######################################################################
+<<! ##################################################### DISCOUNTS SECTION
+<<! #######################################################################
+<<!
+<<IF=[$TOTALDISCOUNTS]|>|0>
+<<! Title: Total discounts
+<<!
+[$TRANSLATE:20010,LEFT,30]
+<<!
+<<DBVAL = BEGIN,0>>
+<<! ###################### Next line fields: Quantity, Description, Discount
+[*IF:LINENUMBER|EQ|1] [*TRANSLATE:20005,6,LEFT] [*TRANSLATE:20006,24,LEFT] [*TRANSLATE:20011,8,LEFT]
+[*IF:LINENUMBER|EQ|1] [*TEXT:----------------------------------------]
+<<![$TRANSLATE:20005,LEFT,6][$TRANSLATE:20006,LEFT,24][$TRANSLATE:20011,LEFT,8]
+<<!
+<<!
+[*IF:DISCOUNT|>|0] [*QUANTITY,6,LEFT,-3] [*ITEMDESCRIPTION,24,LEFT] [*DISCOUNT,8,RIGHT,2] [*TEXT:~%]
+<<!
+<<DBVAL = END>>
+<<DBVAL = RESET>>
+<<!
+<<ENDIF>>
+<<!
+<<IF=[$DISCOUNTVALUE]|>|0>
+<<! 
+<<! ###################### Next line fields: Global discount
+[$TRANSLATE:20012]: [$DISCOUNTVALUE] % 
+<<!
+<<ENDIF>>
+<<IF=[$TOTALDISCOUNTS]|>|0>
+<<! ###################### Next line fields: Total Discounts
+
+[$TRANSLATE:20013]: [$TOTALDISCOUNTS]
+----------------------------------------
+<<!
+<<ENDIF>>
+<<!
+<<! #######################################################################
+<<! ###################################################### SUBTOTAL SECTION
+<<! #######################################################################
+Subtotal: [$SUBTOTAL]
+<<!
+<<! #######################################################################
+<<! ######################################################### TAXES SECTION
+<<! #######################################################################
+<<!
+<<IF=[$SERVICETAXVALUE]|>|0.00]
+<<! ###################### Next line fields: Service Tax
+[$TRANSLATE:20014]: [$SERVICETAXVALUE]
+<<ENDIF>>
+<<IF=[$PRINTERDRIVERID]|EQ|3>>
+<<ESCAPE=ESC ! 1>>
+<<ENDIF>>
+<<! #######################################################################
+<<! ################################################### GRAND TOTAL SECTION
+<<! #######################################################################
+<<FONTSIZE=12>>
+<<!
+<<! ###################### Next line fields: Total
+<<IF=[$CURRENCYSYMBOLPOSITION]|EQ|0>>
+[$TRANSLATE:20015,RIGHT,5]: [$CURRENCYSYMBOL] [$TOTAL]
+<<ELSE>>
+[$TRANSLATE:20015,RIGHT,5]: [$TOTAL] [$CURRENCYSYMBOL]
+<<ENDIF>>
+<<IF=[$SECONDCURRENCYTOTAL]|<>|>>
+[$TRANSLATE:20015,RIGHT,5]: [$SECONDCURRENCYTOTAL] [$SECONDCURRENCYSYMBOL]
+<<ENDIF>>
+<<IF=[$PRINTERTYPE]|EQ|G>>
+<<FONTSIZE=8>>
+<<FONTNAME=Courier New>>
+<<FONTBOLD=TRUE>>
+
+<<ELSE>>
+<<ESCAPE=ESC ! D>>
+<<ENDIF>>
+<<!
+<<! #######################################################################
+<<! ##########################################################  ITEMS COUNT
+<<! #######################################################################
+<<!
+<<IF=[$APPNAME]|EQ|XDPos>>
+<<!
+[$TRANSLATE:15087,RIGHT,18]: [$PRODUCTSQNT]
+
+<<ENDIF>>
+<<!
+<<IF=[$TOTALHOLDINGTAXES]|>|0>>
+<<!
+[$TRANSLATE:20016] - [$TOTALHOLDINGTAXES] [$CURRENCYSYMBOL] ([$HOLDINGTAXVALUE]%)
+<<ENDIF>>
+<<IF=[$PAYMENTTYPECOUNT]|>|1>>
+<<! ###################### Next line fields: Payment Method
+[$TRANSLATE:20017]
+<<! ###################### Next line fields: Method, Currency, Cambio, Total
+[$TRANSLATE:20018,LEFT,14][$TRANSLATE:20019,LEFT,8][$TRANSLATE:20020,RIGHT,8][$TRANSLATE:20015,RIGHT,10]
+<<!
+-----------------------------------------------
+<<!
+<<DBVAL = BEGIN,4>>
+<<!
+[*DESCRIPTION,14,LEFT] [*ORIGINALCURRENCYSYMBOL,8,LEFT] [*CURRENCYRATE,8,RIGHT,2] [*TOTAL,10,RIGHT,2]
+[*TAXDOCDESCRIPTION]
+<<!
+<<DBVAL = END>>
+<<DBVAL = RESET>>
+<<ELSE>>
+<<! ###################### Next line fields: Payment Method
+[$TRANSLATE:20017]: [$PAYMENTDESCRIPTION]
+<<ENDIF>>
+<<!
+<<IF=[$DELIVERED]|>|0.00>>
+<<! ###################### Next line fields: Delivery, Change
+[$TRANSLATE:20021]: [$DELIVERED] [$TRANSLATE:20022]: [$EXCHANGE]
+<<ENDIF>>
+<<!
+[$PAYMENTMODE]
+-----------------------------------------------
+<<!
+<<IF=[$COUNTRYCODE]|EQ|55>>
+<<!
+<<ELSE>>
+<<! ###################### Next line fields: VAT Resume
+[$TRANSLATE:20023]
+<<!
+<<! ###################### Next line fields: Tax, Tax Value, Incidence
+[$TRANSLATE:20096,LEFT,6][$TRANSLATE:20024,RIGHT,17][$TRANSLATE:20025,RIGHT,17]
+<<!
+----------------------------------------
+<<!
+<<DBVAL = BEGIN,1>>
+<<!
+[*TAXVALUE,6,LEFT,0] [*TOTALTAXES,17,RIGHT,2] [*TAXINCIDENCE,17,RIGHT,2]
+[*IF:TAXDOCDESCRIPTION|<>|] [*TEXT:*] [*TAXDOCDESCRIPTION]
+<<DBVAL = END>>
+<<DBVAL = RESET>>
+<<ENDIF>>
+<<!
+<<IF=[$RELATEDDOCUMENTCOUNT]|>|0>>
+<<!
+----------------------------------------
+<<! ###################### Next line fields: Related Documents
+[$TRANSLATE:20026]
+<<! ###################### Next line fields: Date, ID/Type, Serie, Number
+[$TRANSLATE:20003,LEFT,10][$TRANSLATE:20027,RIGHT,8]/[$TRANSLATE:20028,LEFT,7][$TRANSLATE:20029,RIGHT,7][$TRANSLATE:20030,RIGHT,7]
+----------------------------------------
+<<!
+<<DBVAL = BEGIN,3>>
+[*RELATEDCREATIONDATE,10,LEFT] [*RELATEDDOCUMENTTYPEID,8,RIGHT] [*TEXT:/] [*RELATEDKEYID,6,LEFT] [*RELATEDSERIEID,8,RIGHT] [*RELATEDNUMBER,7,RIGHT] 
+<<DBVAL = END>>
+<<DBVAL = RESET>>
+<<!
+<<ENDIF>>
+<<!
+<<!
+<<IF=[$ATDOCCODEID]|<>|>>
+----------------------------------------
+<<! ###################### Next line fields: Shipping
+[$TRANSLATE:20031]
+
+<<! ###################### Next line fields: Shipping Code
+[$TRANSLATE:20032]: [$ATDOCCODEID]
+<<ENDIF>>
+<<IF=[$CARRIERDESCRIPTION]|<>|>>
+<<! ###################### Next line fields: Vehicle Registration
+[$TRANSLATE:20033]: [$CARRIERDESCRIPTION]
+<<ENDIF>>
+<<IF=[$LOADPLACEDESCRIPTION]|<>|>>
+----------------------------------------
+<<! ###################### Next line fields: Load, Date/Time
+[$TRANSLATE:20034] [$TRANSLATE:20003]/[$TRANSLATE:20004]:
+[$LOADPLACEDATE] [$LOADPLACETIME]
+
+[$LOADPLACEDESCRIPTION]
+----------------------------------------
+<<! ###################### Next line fields: Unload, Date/Time
+[$TRANSLATE:20035] [$TRANSLATE:20003]/[$TRANSLATE:20004]:
+[$UNLOADPLACEDATE] [$UNLOADPLACETIME]
+ 
+[$UNLOADPLACEDESCRIPTION]
+<<ENDIF>>
+<<IF=[$PRINTERDRIVERID]|EQ|3>>
+<<ESCAPE=ESC ! D>>
+<<ENDIF>>
+<<IF=[$ENTITYBALANCE]|<>|>>
+<<! ###################### Next line fields: Customer Balance
+[$TRANSLATE:20036]: [$ENTITYBALANCE]
+<<ENDIF>>
+<<IF=[$OBS]|<>|>>
+[$OBS]
+<<ENDIF>>
+<<IF=[$INVOICEOBS]|<>|>>
+----------------------------------------
+[$INVOICEOBS]
+<<ENDIF>>
+<<IF=[$PRINTERTYPE]|EQ|D>>
+<<ESCAPE=ESC ! 8>>
+<<ESCAPE=ESC % 1>>
+<<ELSE>>
+<<FONTSIZE=9>>
+<<ENDIF>>
+<<IF=[$COUNTRYCODE]|EQ|55>>
+<<! ###################### Next line fields: Document with no fiscal value
+[$TRANSLATE:20037]
+<<!
+<<ENDIF>>
+<<!
+<<IF=[$PRINTERTYPE]|EQ|G>>
+<<FONTSIZE=8>>
+<<FONTNAME=Courier New>>
+<<FONTBOLD=TRUE>>
+<<ELSE>>
+<<ESCAPE=ESC ! D>>
+<<ENDIF>>
+<<!
+<<IF=[$CASHREGIME]|<>|>>
+[$CASHREGIME]
+<<ENDIF>>
+<<!
+[$FISCAL_DATA]
+
+<<IF=[$SUBTOTALREFERENCES]|<>|>>
+[$TRANSLATE:20342]
+-----------------------------------------------
+[$SUBTOTALREFERENCES]
+<<ENDIF>>
+<<!
+<<IF=[$APPNAME]|EQ|XDPos>>
+<<! ###################### Next line fields: Serie, Terminal, Employee
+[$TRANSLATE:20038]: [$TERMINAL] [$TRANSLATE:20040]: [$USERNAME]
+<<ELSE>>
+<<! ###################### Next line fields: Serie, Terminal, Table, Employee
+[$TRANSLATE:20038]: [$TERMINAL] [$TRANSLATE:20039]: [$TABLENUMBER]
+[$TRANSLATE:20040]: [$USERNAME]
+<<ENDIF>>
+<<IF=[$COUNTRYCODE]|EQ|34>>
+[$TRANSLATE:20095]
+<<ENDIF>>
+<<IF=[$NUMBERPERSONS]|>|1>>
+-----------------------------------------------
+<<! ###################### Next line fields: People
+[$TRANSLATE:20042]: [$NUMBERPERSONS]
+-----------------------------------------------
+<<ENDIF>>
+<<!
+<<! ###################### Point System:
+<<IF=[$POINTSDOCUMENT]|>|0>>
+-----------------------------------------------
+Pontos Adquiridos : [$POINTSDOCUMENT]
+<<ENDIF>>
+<<!
+<<IF=[$POINTSTOTAL]|>|0>>
+Pontos Acumulados : [$POINTSTOTAL]
+-----------------------------------------------
+
+<<ENDIF>>
+<<!
+<<REGION:[$TRANSLATE:39198]=ON>>
+<<IF=[$ISPREPAID]|EQ|1>>
+
+[$TRANSLATE:39198] : [$CARDBALANCE]
+
+<<ENDIF>>
+<<ENDREGION>>
+-----------------------------------------------
+<<IF=[$CASHREGADD]|EQ|1>>
+<<! ############################################################
+<<! #### OTHER TRANSACTIONS - OUTROS MOVIMENTOS 
+<<! ############################################################
+========================================
+[$TRANSLATE:39352]
+========================================
+<<!
+<<DBVAL = BEGIN,5>>
+[*MOVOBS,25,LEFT] [*MOVVALUE,15,RIGHT,2]
+<<DBVAL = END>>
+<<DBVAL = RESET>>
+<<!
+----------------------------------------
+<<FONTSIZE=12>>
+<<FONTBOLD=TRUE>>
+[$TRANSLATE:20015,RIGHT,5]: [$TOTALCASHREGADD] [$CURRENCYSYMBOL]
+<<ENDIF>>
+<<! ############################################################
+<<IF=[$PRINTERTYPE]|EQ|D>>
+<<ESCAPE=ESC ! 1>>
+<<ELSE>>
+<<FONTSIZE=6>>
+<<ENDIF>>
+[$RAL]
+<<!
+<<IF=[$PRINTERTYPE]|EQ|D>>
+<<ESCAPE=ESC ! D>>
+<<ELSE>>
+<<FONTSIZE=8>>
+<<ENDIF>>
+<<!
+<<! ###################### Next line fields: 
+[$TRANSLATE:20043]
+<<IF=[$COUNTRYCODE]|EQ|55>>
+[$RECEIPT_CC]
+<<!
+-----------------------------------------------
+Lefer Automacao Comercial
+(11) 97329-1391
+www.leferautomacao.com.br
+<<! ############# Layout Editado por João Gabriel Carvalho - Lefer Automacao Comercial
+<<ENDIF>>
+<<!
+<<IF=[$PRINTERDRIVERID]|EQ|2>>
+
+
+
+
+
+<<PAPERCUT>>
+<<!
+<<ENDIF>>
+<<!
+<<IF=[$PRINTERDRIVERID]|EQ|3>>
+
+
+
+
+
+
+
+
+
+<<PAPERCUT>>
+<<!
+<<ENDIF>>
+<<!
+<<IF=[$PRINTERDRIVERID]|>|3>>
+
+
+
+
+
+<<PAPERCUT>>
+<<!
+<<ENDIF>>

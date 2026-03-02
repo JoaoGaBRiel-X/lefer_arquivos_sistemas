@@ -1,0 +1,386 @@
+<<! ############# Layout Editado por João Gabriel Carvalho - Lefer Automacao Comercial
+<<! ############# Data: 25/05/2022
+[$BUSINESS_DATA_GLOBAL]
+<<!  #### FONTSIZE SETUP FOR THIS SECTION
+<<IF=[$PRINTERTYPE]|EQ|G>>
+<<!  ############################## GRAPHIC MODE PRINTER
+<<FONTSIZE=8>>
+<<FONTNAME=Courier New>>
+<<FONTBOLD=TRUE>>
+<<ELSE>>
+<<!  ############################## DIRECT MODE PRINTER
+<<ESCAPE=ESC ! D>>
+<<ENDIF>>
+
+<<!  ############################## DOCUMENTID
+[$DOCUMENTID]
+[$COPYINFO]
+<<IF=[$APPNAME]|EQ|XDRest>>
+<<FONTSIZE=10>>
+<<FONTBOLD=TRUE>>
+[$TRANSLATE:20039]: [$TABLENUMBER]
+<<ENDIF>>
+<<IF=[$APPNAME]|EQ|XDDisco>>
+[$TRANSLATE:20041]: [$TABLENUMBER]
+<<ENDIF>>
+<<FONTSIZE=8>>
+<<FONTBOLD=FALSE>>
+
+[$TRANSLATE:20003,RIGHT,5] [$CLOSEDATE] - [$CLOSEHOUR]:[$CLOSEMINUTES] 
+<<! ###################################################################################################################
+<<! ################################################################################## PRODUCT LINE SECTION STARTS HERE
+<<! ###################################################################################################################
+<<!
+<<! ##################################################################################
+<<! ############################# PRODUCT LINES FOR GRAPHIC MODE PRINTER (O.S. Driver)
+<<! ##################################################################################
+<<IF=[$PRINTERDRIVERID]|EQ|1>>
+<<!  ###################################################################### FONT SETUP
+<<FONTSIZE=8>>
+<<FONTNAME=Courier New>>
+<<FONTBOLD=TRUE>>
+<<! ############################################################# PRODUCT LINES HEADER
+=========================================
+<<! Next line fields: Quantity, description, unit price, sub-total, tax
+[$TRANSLATE:20005,LEFT,6][$TRANSLATE:20006,LEFT,17][$TRANSLATE:20007,RIGHT,9][$TRANSLATE:20008,RIGHT,9]
+-----------------------------------------
+<<!
+<<! ############################################################# PRODUCT LINES BEGIN
+<<DBVAL = BEGIN,0>>
+<<!
+<<! ITENS NORMAIS
+<<!
+[*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|EQ|1] [*QUANTITY,5,LEFT,-3] [*ITEMDESCRIPTION,20,LEFT] [*RETAILPRICE,8,RIGHT,2] [*TOTAL,8,RIGHT,2]
+<<!
+<<! ITENS TIPO MENU
+<<!
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|EQ|4] [*IF:SORTLEVEL|>|1] [*QUANTITY,6,LEFT,-3] [*ITEMDESCRIPTION,17,LEFT] [*TOTALUNITMENUHOLDER,9,RIGHT,2] [*TOTALMENUHOLDER,9,RIGHT,2] [*TEXT:~~~~]
+<<!
+<<! ITENS TIPO PIZZA
+<<!
+[*IF:ITEMTYPE|EQ|6] [*IF:SORTLEVEL|<|1] [*QUANTITY,5,LEFT,-3] [*ITEMDESCRIPTION,20,LEFT] [*RETAILPRICE,8,RIGHT,2] [*TOTAL,8,RIGHT,2]
+[*IF:ITEMTYPE|EQ|0] [*IF:SORTLEVEL|<|1] [*IF:TOTAL|>|0]  [*TEXT:~~~~~~] [*ITEMDESCRIPTION,15,LEFT] [*TOTAL,8,RIGHT,2]
+
+<<! ############################################################# PRODUCT EXTRA FIELDS
+[*PROPERTYNAME1,14,LEFT,0,:~,2] [*PROPERTYVALUE1,27,LEFT,0,~,2]
+[*PROPERTYNAME2,14,LEFT,0,:~,2] [*PROPERTYVALUE2,27,LEFT,0,~,2]
+[*PROPERTYNAME3,14,LEFT,0,:~,2] [*PROPERTYVALUE3,27,LEFT,0,~,2]
+[*PROPERTYNAME4,14,LEFT,0,:~,2] [*PROPERTYVALUE4,27,LEFT,0,~,2]
+[*PROPERTYNAME5,14,LEFT,0,:~,2] [*PROPERTYVALUE5,27,LEFT,0,~,2]
+[*PROPERTYNAME6,14,LEFT,0,:~,2] [*PROPERTYVALUE6,27,LEFT,0,~,2]
+[*PROPERTYNAME7,14,LEFT,0,:~,2] [*PROPERTYVALUE7,27,LEFT,0,~,2]
+[*PROPERTYNAME8,14,LEFT,0,:~,2] [*PROPERTYVALUE8,27,LEFT,0,~,2]
+[*PROPERTYNAME9,14,LEFT,0,:~,2] [*PROPERTYVALUE9,27,LEFT,0,~,2]
+[*PROPERTYNAME10,14,LEFT,0:,~,2] [*PROPERTYVALUE10,27,LEFT,0,~,2]
+
+<<! ########################################################## PRODUCT LINE OBSERVATION
+[*OBSERVATION,41,LEFT]
+<<! ######################################################## TAX DESCRIPTION (if exists)
+[*TAXDOCDESCRIPTIONHOLDER,41,LEFT]
+
+<<DBVAL = END>>
+<<DBVAL = RESET>>
+=========================================
+<<ENDIF>>
+<<! ##################################################################################
+<<! #################################################### PRODUCT LINES FOR EPSON TM-88
+<<! ##################################################################################
+<<IF=[$PRINTERDRIVERID]|EQ|2>>
+===============================================
+<<! ###################### Next line fields: Quantity, description, unit price, sub-total, tax
+[$TRANSLATE:20005,LEFT,5][$TRANSLATE:20006,LEFT,25][$TRANSLATE:20007,RIGHT,9][$TRANSLATE:20008,RIGHT,9]
+-----------------------------------------------
+<<!
+<<DBVAL = BEGIN,0>>
+<<!
+<<! ITENS NORMAIS
+<<!
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|EQ|1] [*QUANTITY,5,LEFT,-3] [*ITEMDESCRIPTION,25,LEFT] [*RETAILPRICE,8,RIGHT,2] [*TOTAL,9,RIGHT,2]
+<<!
+<<! ITENS TIPO MENU
+<<!
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|EQ|4] [*IF:SORTLEVEL|>|1] [*QUANTITY,5,LEFT,-3] [*ITEMDESCRIPTION,25,LEFT] [*TOTALUNITMENUHOLDER,8,RIGHT,2] [*TOTALMENUHOLDER,9,RIGHT,2]
+<<!
+<<! ITENS TIPO PIZZA
+<<!
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|EQ|6] [*IF:SORTLEVEL|<|1] [*QUANTITY,5,LEFT,-3] [*ITEMDESCRIPTION,25,LEFT] [*RETAILPRICE,8,RIGHT,2] [*TOTAL,9,RIGHT,2]
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|EQ|11] [*TEXT:~~~~~~] [*ITEMDESCRIPTION,35,LEFT]
+[*IF:TOTAL|>=|0] [*IF:ITEMTYPE|EQ|0] [*IF:SORTLEVEL|<|1] [*IF:TOTAL|>|0] [*TEXT:~~~~~~] [*ITEMDESCRIPTION,27,LEFT] [*TOTAL,9,RIGHT,2]
+
+[*PROPERTYNAME1,14,LEFT,0,:~,2] [*PROPERTYVALUE1,27,LEFT,0,~,2]
+[*PROPERTYNAME2,14,LEFT,0,:~,2] [*PROPERTYVALUE2,27,LEFT,0,~,2]
+[*PROPERTYNAME3,14,LEFT,0,:~,2] [*PROPERTYVALUE3,27,LEFT,0,~,2]
+[*PROPERTYNAME4,14,LEFT,0,:~,2] [*PROPERTYVALUE4,27,LEFT,0,~,2]
+[*PROPERTYNAME5,14,LEFT,0,:~,2] [*PROPERTYVALUE5,27,LEFT,0,~,2]
+[*PROPERTYNAME6,14,LEFT,0,:~,2] [*PROPERTYVALUE6,27,LEFT,0,~,2]
+[*PROPERTYNAME7,14,LEFT,0,:~,2] [*PROPERTYVALUE7,27,LEFT,0,~,2]
+[*PROPERTYNAME8,14,LEFT,0,:~,2] [*PROPERTYVALUE8,27,LEFT,0,~,2]
+[*PROPERTYNAME9,14,LEFT,0,:~,2] [*PROPERTYVALUE9,27,LEFT,0,~,2]
+[*PROPERTYNAME10,14,LEFT,0:,~,2] [*PROPERTYVALUE10,27,LEFT,0,~,2]
+
+[*OBSERVATION,41,LEFT]
+[*TAXDOCDESCRIPTIONHOLDER,41,LEFT]
+
+<<DBVAL = END>>
+<<DBVAL = RESET>>
+===============================================
+<<ENDIF>>
+<<! ##################################################################################
+<<! ################################################## PRODUCT LINES FOR EPSON TM-U220
+<<! ##################################################################################
+<<IF=[$PRINTERDRIVERID]|EQ|3>>
+=================================
+<<! ###################### Next line fields: Quantity, description, unit price, sub-total, tax
+[$TRANSLATE:20005,LEFT,6][$TRANSLATE:20006,LEFT,7][$TRANSLATE:20007,RIGHT,8][$TRANSLATE:20008,RIGHT,8][$TRANSLATE:20009,RIGHT,4]
+---------------------------------
+<<!
+<<DBVAL = BEGIN,0>>
+[*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|EQ|1] [*QUANTITY,6,LEFT,-3] [*ITEMDESCRIPTION,27,LEFT]
+[*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|EQ|1] [*RETAILPRICE,21,RIGHT,2] [*TOTAL,8,RIGHT,2] [*TAXVALUE,4,RIGHT,0]
+
+[*IF:ITEMTYPE|EQ|4] [*IF:SORTLEVEL|>|1] [*QUANTITY,6,LEFT,-3] [*ITEMDESCRIPTION,27,LEFT]
+
+[*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|>|1] [*RETAILPRICE,21,RIGHT,2] [*TOTAL,8,RIGHT,2] [*TAXVALUE,4,RIGHT,0]
+
+[*IF:ITEMTYPE|EQ|6] [*IF:SORTLEVEL|<|1] [*QUANTITY,6,LEFT,-3] [*ITEMDESCRIPTION,27,LEFT]
+[*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|>|1] [*IF:TOTAL|VEQ|0] [*RETAILPRICE,21,RIGHT,2] [*TOTAL,8,RIGHT,2] [*TAXVALUE,4,RIGHT,0]
+
+[*IF:ITEMTYPE|EQ|11] [*TEXT:~~~~~~] [*ITEMDESCRIPTION,31,LEFT] 
+[*IF:ITEMTYPE|EQ|0] [*IF:SORTLEVEL|<|1] [*IF:TOTAL|VEQ|0] [*TEXT:~~~~~~] [*ITEMDESCRIPTION,30,LEFT]
+[*IF:ITEMTYPE|EQ|0] [*IF:SORTLEVEL|<|1] [*IF:TOTAL|>|0]  [*TEXT:~~~~~~] [*ITEMDESCRIPTION,15,LEFT] [*TOTAL,8,RIGHT,2]
+
+[*PROPERTYNAME1,14,LEFT,0,:~,2] [*PROPERTYVALUE1,19,LEFT,0,~,2]
+[*PROPERTYNAME2,14,LEFT,0,:~,2] [*PROPERTYVALUE2,19,LEFT,0,~,2]
+[*PROPERTYNAME3,14,LEFT,0,:~,2] [*PROPERTYVALUE3,19,LEFT,0,~,2]
+[*PROPERTYNAME4,14,LEFT,0,:~,2] [*PROPERTYVALUE4,19,LEFT,0,~,2]
+[*PROPERTYNAME5,14,LEFT,0,:~,2] [*PROPERTYVALUE5,19,LEFT,0,~,2]
+[*PROPERTYNAME6,14,LEFT,0,:~,2] [*PROPERTYVALUE6,19,LEFT,0,~,2]
+[*PROPERTYNAME7,14,LEFT,0,:~,2] [*PROPERTYVALUE7,19,LEFT,0,~,2]
+[*PROPERTYNAME8,14,LEFT,0,:~,2] [*PROPERTYVALUE8,19,LEFT,0,~,2]
+[*PROPERTYNAME9,14,LEFT,0,:~,2] [*PROPERTYVALUE9,19,LEFT,0,~,2]
+[*PROPERTYNAME10,14,LEFT,0:,~,2] [*PROPERTYVALUE10,19,LEFT,0,~,2]
+
+[*OBSERVATION,33,LEFT]
+[*TAXDOCDESCRIPTIONHOLDER,33,LEFT]
+
+<<DBVAL = END>>
+<<DBVAL = RESET>>
+=================================
+<<ENDIF>>
+<<IF=[$PRINTERDRIVERID]|EQ|4>>
+================================================
+<<! ###################### Next line fields: Quantity, description, unit price, sub-total, tax
+[$TRANSLATE:20005,LEFT,6][$TRANSLATE:20006,LEFT,22][$TRANSLATE:20007,RIGHT,8][$TRANSLATE:20008,RIGHT,8][$TRANSLATE:20009,RIGHT,4]
+------------------------------------------------
+<<!
+<<DBVAL = BEGIN,0>>
+[*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|EQ|1] [*QUANTITY,6,LEFT,-3] [*ITEMDESCRIPTION,22,LEFT] [*RETAILPRICE,8,RIGHT,2] [*TOTAL,8,RIGHT,2] [*TAXVALUE,4,RIGHT,0]
+[*IF:ITEMTYPE|EQ|4] [*IF:SORTLEVEL|>|1] [*QUANTITY,6,LEFT,-3] [*ITEMDESCRIPTION,22,LEFT] [*TEXT:~~~~~~~~~~~~~~~~~~~~]
+[*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|>|1] [*TEXT:~~~~~~] [*ITEMDESCRIPTION,22,LEFT] [*RETAILPRICE,8,RIGHT,2] [*TOTAL,8,RIGHT,2] [*TAXVALUE,4,RIGHT,0]
+[*IF:ITEMTYPE|EQ|6] [*IF:SORTLEVEL|<|1] [*QUANTITY,6,LEFT,-3] [*ITEMDESCRIPTION,22,LEFT] [*RETAILPRICE,8,RIGHT,2] [*TOTAL,8,RIGHT,2] [*TAXVALUE,4,RIGHT,0]
+
+[*IF:ITEMTYPE|EQ|11] [*TEXT:~~~~~~] [*ITEMDESCRIPTION,31,LEFT] 
+[*IF:ITEMTYPE|EQ|0] [*IF:SORTLEVEL|<|1] [*IF:TOTAL|VEQ|0] [*TEXT:~~~~~~] [*ITEMDESCRIPTION,45,LEFT]
+[*IF:ITEMTYPE|EQ|0] [*IF:SORTLEVEL|<|1] [*IF:TOTAL|>|0]  [*TEXT:~~~~~~] [*ITEMDESCRIPTION,15,LEFT] [*TOTAL,8,RIGHT,2]
+
+[*PROPERTYNAME1,14,LEFT,0,:~,2] [*PROPERTYVALUE1,34,LEFT,0,~,2]
+[*PROPERTYNAME2,14,LEFT,0,:~,2] [*PROPERTYVALUE2,34,LEFT,0,~,2]
+[*PROPERTYNAME3,14,LEFT,0,:~,2] [*PROPERTYVALUE3,34,LEFT,0,~,2]
+[*PROPERTYNAME4,14,LEFT,0,:~,2] [*PROPERTYVALUE4,34,LEFT,0,~,2]
+[*PROPERTYNAME5,14,LEFT,0,:~,2] [*PROPERTYVALUE5,34,LEFT,0,~,2]
+[*PROPERTYNAME6,14,LEFT,0,:~,2] [*PROPERTYVALUE6,34,LEFT,0,~,2]
+[*PROPERTYNAME7,14,LEFT,0,:~,2] [*PROPERTYVALUE7,34,LEFT,0,~,2]
+[*PROPERTYNAME8,14,LEFT,0,:~,2] [*PROPERTYVALUE8,34,LEFT,0,~,2]
+[*PROPERTYNAME9,14,LEFT,0,:~,2] [*PROPERTYVALUE9,34,LEFT,0,~,2]
+[*PROPERTYNAME10,14,LEFT,0:,~,2] [*PROPERTYVALUE10,34,LEFT,0,~,2]
+
+[*OBSERVATION,48,LEFT]
+[*TAXDOCDESCRIPTIONHOLDER,48,LEFT]
+
+<<DBVAL = END>>
+<<DBVAL = RESET>>
+================================================
+<<ENDIF>>
+<<IF=[$PRINTERDRIVERID]|>|4>>
+=========================================
+<<! ###################### Next line fields: Quantity, description, unit price, sub-total, tax
+[$TRANSLATE:20005,LEFT,6][$TRANSLATE:20006,LEFT,15][$TRANSLATE:20007,RIGHT,8][$TRANSLATE:20008,RIGHT,8][$TRANSLATE:20009,RIGHT,4]
+-----------------------------------------
+<<!
+<<DBVAL = BEGIN,0>>
+<<! ############# Layout Editado por João Gabriel Carvalho - Lefer Automacao Comercial
+[*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|EQ|1] [*QUANTITY,6,LEFT,-3] [*ITEMDESCRIPTION,15,LEFT] [*RETAILPRICE,8,RIGHT,2] [*TOTAL,8,RIGHT,2] [*TAXVALUE,4,RIGHT,0]
+[*IF:ITEMTYPE|EQ|4] [*IF:SORTLEVEL|>|1] [*QUANTITY,6,LEFT,-3] [*ITEMDESCRIPTION,15,LEFT] [*TEXT:~~~~~~~~~~~~~~~~~~~~]
+[*IF:ITEMTYPE|<>|4] [*IF:SORTLEVEL|>|1] [*TEXT:~~~~~~] [*ITEMDESCRIPTION,15,LEFT] [*RETAILPRICE,8,RIGHT,2] [*TOTAL,8,RIGHT,2] [*TAXVALUE,4,RIGHT,0]
+[*IF:ITEMTYPE|EQ|6] [*IF:SORTLEVEL|<|1] [*QUANTITY,6,LEFT,-3] [*ITEMDESCRIPTION,15,LEFT] [*RETAILPRICE,8,RIGHT,2] [*TOTAL,8,RIGHT,2] [*TAXVALUE,4,RIGHT,0]
+
+[*IF:ITEMTYPE|EQ|11] [*TEXT:~~~~~~] [*ITEMDESCRIPTION,31,LEFT] 
+[*IF:ITEMTYPE|EQ|0] [*IF:SORTLEVEL|<|1] [*IF:TOTAL|VEQ|0] [*TEXT:~~~~~~] [*ITEMDESCRIPTION,38,LEFT]
+[*IF:ITEMTYPE|EQ|0] [*IF:SORTLEVEL|<|1] [*IF:TOTAL|>|0]  [*TEXT:~~~~~~] [*ITEMDESCRIPTION,15,LEFT] [*TOTAL,8,RIGHT,2]
+
+[*PROPERTYNAME1,14,LEFT,0,:~,2] [*PROPERTYVALUE1,27,LEFT,0,~,2]
+[*PROPERTYNAME2,14,LEFT,0,:~,2] [*PROPERTYVALUE2,27,LEFT,0,~,2]
+[*PROPERTYNAME3,14,LEFT,0,:~,2] [*PROPERTYVALUE3,27,LEFT,0,~,2]
+[*PROPERTYNAME4,14,LEFT,0,:~,2] [*PROPERTYVALUE4,27,LEFT,0,~,2]
+[*PROPERTYNAME5,14,LEFT,0,:~,2] [*PROPERTYVALUE5,27,LEFT,0,~,2]
+[*PROPERTYNAME6,14,LEFT,0,:~,2] [*PROPERTYVALUE6,27,LEFT,0,~,2]
+[*PROPERTYNAME7,14,LEFT,0,:~,2] [*PROPERTYVALUE7,27,LEFT,0,~,2]
+[*PROPERTYNAME8,14,LEFT,0,:~,2] [*PROPERTYVALUE8,27,LEFT,0,~,2]
+[*PROPERTYNAME9,14,LEFT,0,:~,2] [*PROPERTYVALUE9,27,LEFT,0,~,2]
+[*PROPERTYNAME10,14,LEFT,0:,~,2] [*PROPERTYVALUE10,27,LEFT,0,~,2]
+
+[*OBSERVATION,41,LEFT]
+[*TAXDOCDESCRIPTIONHOLDER,41,LEFT]
+
+<<DBVAL = END>>
+<<DBVAL = RESET>>
+=========================================
+<<ENDIF>>
+<<IF=[$PRINTERTYPE]|EQ|G>>
+<<FONTSIZE=8>>
+<<FONTNAME=Courier New>>
+<<FONTBOLD=TRUE>>
+<<ELSE>>
+<<ESCAPE=ESC ! D>>
+<<ENDIF>>
+<<!
+<<! #######################################################################
+<<! ##################################################### DISCOUNTS SECTION
+<<! #######################################################################
+<<!
+<<IF=[$TOTALDISCOUNTS]|>|0>
+<<! Title: Total discounts
+[$TRANSLATE:20010,LEFT,30]
+<<! ###################### Next line fields: Quantity, Description, Discount
+[$TRANSLATE:20005,LEFT,6][$TRANSLATE:20006,LEFT,24][$TRANSLATE:20011,LEFT,8]
+-----------------------------------------------
+<<!
+<<DBVAL = BEGIN,0>>
+<<!
+[*IF:DISCOUNT|>|0] [*QUANTITY,6,LEFT,-3] [*ITEMDESCRIPTION,24,LEFT] [*DISCOUNT,8,RIGHT,2] [*TEXT:~%]
+<<!
+<<DBVAL = END>>
+<<DBVAL = RESET>>
+<<!
+<<ENDIF>>
+<<!
+<<IF=[$DISCOUNTVALUE]|>|0>
+<<! 
+<<! ###################### Next line fields: Global discount
+[$TRANSLATE:20012,RIGHT,31]: [$DISCOUNTVALUE] % 
+<<!
+<<ENDIF>>
+<<!
+<<IF=[$TOTALDISCOUNTS]|>|0>
+<<! ###################### Next line fields: Total Discounts
+[$TRANSLATE:20013,RIGHT,20]: [$TOTALDISCOUNTS] [$CURRENCYKEYID]
+-----------------------------------------------
+<<!
+<<ENDIF>>
+<<! #######################################################################
+<<! ######################################################### ADIANTAMENTOS
+<<! #######################################################################
+<<SET=HASADVANCE,0>>
+<<DBVAL=RESET>>
+<<DBVAL=BEGIN,3>>
+[*IF:TOTAL|>|0] [*TRANSLATE:14136] [*TEXT:~:~~] [*PAYMENTTYPEHOLDER,12,RIGHT] [*TEXT:~] [*TOTAL,8,RIGHT,2]
+[*SET,HASADVANCE,SORTKEY]
+<<DBVAL=END>>
+
+<<IF=[$HASADVANCE]|<>|0>>
+
+[$TRANSLATE:12108,RIGHT,11]: [$TOTALWITHOUTADVANCE] [$CURRENCYSYMBOL]
+
+<<ENDIF>>
+Subtotal: [$SUBTOTAL]
+<<! #######################################################################
+<<! ################################################### GRAND TOTAL SECTION
+<<! #######################################################################
+<<IF=[$TABLENUMBER]|>|999999>>
+<<SET=SERVICEDESCRIPTION,Taxa de Entrega>>
+<<ELSE>>
+<<SET=SERVICEDESCRIPTION,[$TRANSLATE:20014]>>
+<<ENDIF>>
+<<! 
+<<IF=[$SERVICETAXVALUE]|>|0.00]
+<<! ###################### Next line fields: Service Tax
+[$SERVICEDESCRIPTION]: [$SERVICETAXVALUE]
+<<ENDIF>>
+<<! CRIADO POR JOAO GABRIEL CARVALHO - LEFER AUTOMACAO COMERCIAL V. 20220523
+<<FONTSIZE=12>>
+<<IF=[$CURRENCYSYMBOLPOSITION]|EQ|0>>
+[$TRANSLATE:20015,RIGHT,5]: [$CURRENCYSYMBOL] [$TOTAL]
+<<ELSE>>
+[$TRANSLATE:20015,RIGHT,5]: [$TOTAL] [$CURRENCYSYMBOL]
+<<ENDIF>>
+<<IF=[$PRINTERTYPE]|EQ|G>>
+<<FONTSIZE=8>>
+<<FONTNAME=Courier New>>
+<<FONTBOLD=TRUE>>
+
+<<ELSE>>
+<<ESCAPE=ESC ! D>>
+<<ENDIF>>
+<<!
+<<! #######################################################################
+<<! ######################################################### TAXES SECTION
+<<! #######################################################################
+<<!
+<<!
+<<IF=[$TOTALHOLDINGTAXES]|>|0>>
+<<!
+[$TRANSLATE:20016] - [$TOTALHOLDINGTAXES] [$CURRENCYKEYID] ([$HOLDINGTAXVALUE]%)
+<<ENDIF>>
+-----------------------------------------------
+<<IF=[$TABLENUMBER]|>|999999>>
+[$DELIVERY_TYPE]
+Numero: [$DELIVERY_NUMBER]
+Cliente: [$DELIVERY_CUSTOMER_NAME]
+Telefone: [$DELIVERY_CUSTOMER_PHONE]
+Endereco: [$DELIVERY_CUSTOMER_ADDRESS]
+Numero: [$DELIVERY_CUSTOMER_ADDRESS_NUMBER]
+Complemento: [$DELIVERY_CUSTOMER_ADDRESS_COMPLEMENT]
+Bairro: [$DELIVERY_CUSTOMER_NEIGHBORHOOD]
+Referencia: [$DELIVERY_CUSTOMER_REFERENCE]
+Cidade: [$DELIVERY_CUSTOMER_CITY]
+Pagamento: [$DELIVERY_PAYMENT_TYPE]
+Troco: [$DELIVERY_EXCHANGE]
+Motoboy: [$DELIVERY_MOTOBOY_NAME]
+Contacto Motoboy: [$DELIVERY_MOTOBOY_PHONE]
+OBS: [$DELIVERY_PAYMENT_OBS]
+-----------------------------------------------
+<<ENDIF>>
+<<IF=[$NUMBERPERSONS]|>|1>>
+<<! ###################### Next line fields: People
+[$TRANSLATE:20042]: [$NUMBERPERSONS]
+[$TRANSLATE:20552]: [$TOTALBYPERSON]
+-----------------------------------------------
+<<ENDIF>>
+<<!
+[$FISCAL_DATA]
+<<IF=[$DELETED]|EQ|1>>
+[$TRANSLATE:5040]
+<<ENDIF>>
+[$TRANSLATE:20037]
+[$TRANSLATE:20040]: [$USERNAME]
+<<!
+-----------------------------------------------
+Lefer Automacao Comercial
+(11) 97329-1391
+www.leferautomacao.com.br
+<<! ############# Layout Editado por João Gabriel Carvalho - Lefer Automacao Comercial
+<<IF=[$PRINTERTYPE]|EQ|D>>
+<<ESCAPE=ESC ! 1>>
+<<ELSE>>
+<<FONTSIZE=6>>
+<<ENDIF>>
+[$RAL]
+<<!
+<<IF=[$PRINTERTYPE]|EQ|D>>
+
+
+
+
+<<PAPERCUT>>
+<<ENDIF>>
+<<! CRIADO POR JOAO GABRIEL CARVALHO - LEFER AUTOMACAO COMERCIAL V. 20220523
