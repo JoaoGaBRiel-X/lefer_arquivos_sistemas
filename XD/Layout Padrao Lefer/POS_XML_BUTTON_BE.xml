@@ -1,0 +1,4773 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfXmlButtonBE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>7</Y>
+    <PageNumber>1001</PageNumber>
+    <Left>7</Left>
+    <Right>8</Right>
+    <Top>0</Top>
+    <Bottom>1</Bottom>
+    <Id>Id_2013927_144845601635158901256019235</Id>
+    <Text>SUPORTE LEFER</Text>
+    <Height>90</Height>
+    <Width>90</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>EMPR_I</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>656096</Pixel>
+      <Red>65535</Red>
+      <Green>63921</Green>
+      <Blue>63921</Blue>
+    </FontColor>
+    <Style>Botao laranja</Style>
+    <Image>config</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>3</Y>
+    <PageNumber>1001</PageNumber>
+    <Left>3</Left>
+    <Right>5</Right>
+    <Top>4</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013927_145014551635158902145510111</Id>
+    <Text>USUARIOS</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>EMPRF_I</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>656096</Pixel>
+      <Red>65535</Red>
+      <Green>63921</Green>
+      <Blue>63921</Blue>
+    </FontColor>
+    <Style>Botao laranja</Style>
+    <Image>employee</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>4</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>4</Y>
+    <PageNumber>1001</PageNumber>
+    <Left>3</Left>
+    <Right>5</Right>
+    <Top>4</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013927_145014551635158902145510111</Id>
+    <Text>USUARIOS</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>EMPRF_I</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>656096</Pixel>
+      <Red>65535</Red>
+      <Green>63921</Green>
+      <Blue>63921</Blue>
+    </FontColor>
+    <Style>Botao laranja</Style>
+    <Image>employee</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>4</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>3</Y>
+    <PageNumber>1001</PageNumber>
+    <Left>3</Left>
+    <Right>5</Right>
+    <Top>4</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013927_145014551635158902145510111</Id>
+    <Text>USUARIOS</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>EMPRF_I</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>656096</Pixel>
+      <Red>65535</Red>
+      <Green>63921</Green>
+      <Blue>63921</Blue>
+    </FontColor>
+    <Style>Botao laranja</Style>
+    <Image>employee</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>4</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>4</Y>
+    <PageNumber>1001</PageNumber>
+    <Left>3</Left>
+    <Right>5</Right>
+    <Top>4</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013927_145014551635158902145510111</Id>
+    <Text>USUARIOS</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>EMPRF_I</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>656096</Pixel>
+      <Red>65535</Red>
+      <Green>63921</Green>
+      <Blue>63921</Blue>
+    </FontColor>
+    <Style>Botao laranja</Style>
+    <Image>employee</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>4</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>0</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>0</Left>
+    <Right>5</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_20121130_1455368634898841360089400</Id>
+    <Text>MÉTODOS DE PAGAMENTO</Text>
+    <Height>122</Height>
+    <Width>640</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 20</FontDescription>
+    <FontColor>
+      <Pixel>8</Pixel>
+      <Red>62217</Red>
+      <Green>60397</Green>
+      <Blue>60397</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>1</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>0</Left>
+    <Right>5</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_20121130_1455368634898841360089400</Id>
+    <Text>MÉTODOS DE PAGAMENTO</Text>
+    <Height>122</Height>
+    <Width>640</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 20</FontDescription>
+    <FontColor>
+      <Pixel>8</Pixel>
+      <Red>62217</Red>
+      <Green>60397</Green>
+      <Blue>60397</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>2</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>0</Left>
+    <Right>5</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_20121130_1455368634898841360089400</Id>
+    <Text>MÉTODOS DE PAGAMENTO</Text>
+    <Height>122</Height>
+    <Width>640</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 20</FontDescription>
+    <FontColor>
+      <Pixel>8</Pixel>
+      <Red>62217</Red>
+      <Green>60397</Green>
+      <Blue>60397</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>3</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>0</Left>
+    <Right>5</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_20121130_1455368634898841360089400</Id>
+    <Text>MÉTODOS DE PAGAMENTO</Text>
+    <Height>122</Height>
+    <Width>640</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 20</FontDescription>
+    <FontColor>
+      <Pixel>8</Pixel>
+      <Red>62217</Red>
+      <Green>60397</Green>
+      <Blue>60397</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>4</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>0</Left>
+    <Right>5</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_20121130_1455368634898841360089400</Id>
+    <Text>MÉTODOS DE PAGAMENTO</Text>
+    <Height>122</Height>
+    <Width>640</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 20</FontDescription>
+    <FontColor>
+      <Pixel>8</Pixel>
+      <Red>62217</Red>
+      <Green>60397</Green>
+      <Blue>60397</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>5</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_20251014_10196388638960339463884120</Id>
+    <Text>NFE</Text>
+    <Height>122</Height>
+    <Width>122</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>DOCTYPE</Function>
+    <Password />
+    <FontDescription>Sans Bold 15</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>BottomCenter</AlignImage>
+    <Parameter>NFE</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>0</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2013927_153549944635158929499444977</Id>
+    <Text>DINHEIRO   F1</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>FCONTA_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>1</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>1</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>1</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2013927_15345463635158928940633014</Id>
+    <Text>DÉBITO    F2</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>FCONTA_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>3</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>3</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>2</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2013927_15355923635158929059239798</Id>
+    <Text>CRÉDITO F4</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>FCONTA_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>mastercard</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>6</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>3</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>3</Left>
+    <Right>4</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2023118_102649417638096344094178789</Id>
+    <Text>PIX F5</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>FCONTA_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>Pix</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>13</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>5</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2022916_9284552637989172845520239</Id>
+    <Text>FAC  F11</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>DOCTYPE</Function>
+    <Password />
+    <FontDescription>Sans Bold 15</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>BottomCenter</AlignImage>
+    <Parameter>FAC</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>0</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2013927_153616355635158929763550083</Id>
+    <Text>ASSINADA</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>FCONTA_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>conta_assinada</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>12</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>1</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>1</Left>
+    <Right>3</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2022916_92758771637989172787718880</Id>
+    <Text>MULTIPAGAMENTO F8</Text>
+    <Height>122</Height>
+    <Width>252</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>MULTIPAYMENT</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>multibanco</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>2</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>1</Left>
+    <Right>3</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2022916_92758771637989172787718880</Id>
+    <Text>MULTIPAGAMENTO F8</Text>
+    <Height>122</Height>
+    <Width>252</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>MULTIPAYMENT</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>multibanco</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>3</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>3</Left>
+    <Right>4</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2023118_10265038638096344100383644</Id>
+    <Text>VALE REFEIÇÃO F6</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>FCONTA_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>VR</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>14</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>5</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2022916_928866637989172880669787</Id>
+    <Text>CONSUMO INTERNO  F10</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>DOCTYPE</Function>
+    <Password />
+    <FontDescription>Sans Bold 15</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>BottomCenter</AlignImage>
+    <Parameter>NF</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>0</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013927_153050754635158926507543850</Id>
+    <Text>FECHAR VÁRIAS MESAS</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAYMANY</Function>
+    <Password />
+    <FontDescription>Sans Bold 15</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>BottomCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>1</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013927_15313385635158926930858062</Id>
+    <Text>TAXA DE SERVIÇO</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>BR_MESASERVICO</Function>
+    <Password />
+    <FontDescription>Sans Bold 15</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>BottomCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>2</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013927_153148117635158927081176660</Id>
+    <Text>DESCONTO</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>DESCONTO</Function>
+    <Password />
+    <FontDescription>Sans Bold 15</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>BottomCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>5</Y>
+    <PageNumber>1002</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2012330_16243225</Id>
+    <Text>VOLTAR</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 13</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>5088</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>voltar</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>CenterCenter</AlignImage>
+    <Parameter>1</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>0</Y>
+    <PageNumber>1003</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_20121023_103749894</Id>
+    <Text>Quantidade</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>QNT</Function>
+    <Password />
+    <FontDescription>Calibri 10</FontDescription>
+    <FontColor>
+      <Pixel>53</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>1</Style>
+    <Image>quantity</Image>
+    <Align>Bottom</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>1</Y>
+    <PageNumber>1003</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_20121023_111056367</Id>
+    <Text>Alterar Preço</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PUNIT</Function>
+    <Password />
+    <FontDescription>Calibri 10</FontDescription>
+    <FontColor>
+      <Pixel>53</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>1</Style>
+    <Image>price</Image>
+    <Align>Bottom</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>2</Y>
+    <PageNumber>1003</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_20121023_11104023</Id>
+    <Text>Balança</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>BALANCA</Function>
+    <Password />
+    <FontDescription>Calibri 10</FontDescription>
+    <FontColor>
+      <Pixel>53</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>1</Style>
+    <Image>scale</Image>
+    <Align>Bottom</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>3</Y>
+    <PageNumber>1003</PageNumber>
+    <Left>3</Left>
+    <Right>4</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_20121023_11103731</Id>
+    <Text>Limpar</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>APAGAT</Function>
+    <Password />
+    <FontDescription>Calibri 10</FontDescription>
+    <FontColor>
+      <Pixel>53</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>1</Style>
+    <Image>clear</Image>
+    <Align>Bottom</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>4</Y>
+    <PageNumber>1003</PageNumber>
+    <Left>4</Left>
+    <Right>5</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2012525_81910901</Id>
+    <Text>Fechar conta</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Calibri 10</FontDescription>
+    <FontColor>
+      <Pixel>53</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>1</Style>
+    <Image>total</Image>
+    <Align>Bottom</Align>
+    <AlignImage />
+    <Parameter>1002</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>5</Y>
+    <PageNumber>1003</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2012525_82316314</Id>
+    <Text>Enviar Pedido</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>ENVIA</Function>
+    <Password />
+    <FontDescription>Calibri 10</FontDescription>
+    <FontColor>
+      <Pixel>53</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>1</Style>
+    <Image>order</Image>
+    <Align>Bottom</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>0</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>0</Top>
+    <Bottom>1</Bottom>
+    <Id>Id_2013927_1459202635158907600028385</Id>
+    <Text>OPERAÇÕES</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 12</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>2</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>0</Top>
+    <Bottom>1</Bottom>
+    <Id>Id_2022919_151428570637991972685703377</Id>
+    <Text>XLS2XD</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>XLS2XD</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>4</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>4</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>1</Bottom>
+    <Id>Id_2013927_15044461635158908444613868</Id>
+    <Text>IMPRESSORA FISCAL</Text>
+    <Height>122</Height>
+    <Width>252</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 12</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>5</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>4</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>1</Bottom>
+    <Id>Id_2013927_15044461635158908444613868</Id>
+    <Text>IMPRESSORA FISCAL</Text>
+    <Height>122</Height>
+    <Width>252</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 12</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>0</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2012328_113648941</Id>
+    <Text>Reservar Mesa</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>RESERVAS</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>1</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2012328_113648851</Id>
+    <Text>Abrir Gaveta</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>GAVETA</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>2</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2012328_11364998</Id>
+    <Text>Caixa</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>CAIXA</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>4</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>4</Left>
+    <Right>5</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2013927_151017715635158914177155937</Id>
+    <Text>Menu Fiscal</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>BR_MENU_FISCAL</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>9</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>5</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2013927_151050460635158914504600512</Id>
+    <Text>Configurar Fiscal</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>BR_PRINTER_CONFIG</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>9</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>0</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2013927_15651717635158912117172319</Id>
+    <Text>Contabilidade</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>CONTABILIDADE</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>1</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2012328_113649209</Id>
+    <Text>Consultar Dia</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>CDIA</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>2</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2012328_113649231</Id>
+    <Text>Fechar Dia</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>FDIA</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>4</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>4</Left>
+    <Right>5</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2013927_151031818635158914318180185</Id>
+    <Text>Cancelar Cupom</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>BR_CANCELAR_ULTIMO</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>9</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>5</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2013927_15120862635158915208629749</Id>
+    <Text>Taxa de Serviço</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>BR_TAXASERVICO</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>9</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>0</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2013927_15025398635158908253981534</Id>
+    <Text>SISTEMA</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 12</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>4</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>4</Left>
+    <Right>6</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2013927_152019310635158920193104510</Id>
+    <Text>XD SOFTWARE</Text>
+    <Height>122</Height>
+    <Width>252</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 12</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>5</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>4</Left>
+    <Right>6</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2013927_152019310635158920193104510</Id>
+    <Text>XD SOFTWARE</Text>
+    <Height>122</Height>
+    <Width>252</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 12</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>0</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2013311_165437725634986176777256378</Id>
+    <Text>Atualizar  Sistema</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>AUTOUPDATE</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>1</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2012328_113648784</Id>
+    <Text>Recriar Páginas</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>AUTOPLU</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>2</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2013927_145432436635158904724367613</Id>
+    <Text>Suporte Remoto</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>SUPORTE_REM</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>suporte</Image>
+    <Align>Bottom</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>4</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>4</Left>
+    <Right>5</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2013930_10209235635161332092354871</Id>
+    <Text>MAIS FUNÇÕES</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>17</Pixel>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </FontColor>
+    <Style>8</Style>
+    <Image>lupa</Image>
+    <Align>Bottom</Align>
+    <AlignImage />
+    <Parameter>1004</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>5</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2013927_151444647635158916846476626</Id>
+    <Text>Seja um Cliente XD</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>EXTERNO</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>47</Pixel>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </FontColor>
+    <Style>8</Style>
+    <Image>logo</Image>
+    <Align>Bottom</Align>
+    <AlignImage />
+    <Parameter>http://www.xdsoftware.com.br/</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>0</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2012328_113648652</Id>
+    <Text>Limpar Dados de Teste</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>LIMPA_BASE</Function>
+    <Password>xd</Password>
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>1</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2012328_113648829</Id>
+    <Text>Restaurar Sistema</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>RESTORE</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>2</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2012328_113648807</Id>
+    <Text>Cópia de Segurança</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>BACKUP</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>7405588</Pixel>
+      <Red>64331</Red>
+      <Green>62511</Green>
+      <Blue>62511</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>4</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>4</Left>
+    <Right>5</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013927_151939280635158919792807807</Id>
+    <Text>MINIMIZAR</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>WINDOWMIN</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>47</Pixel>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </FontColor>
+    <Style>8</Style>
+    <Image>minimizar</Image>
+    <Align>Bottom</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>5</Y>
+    <PageNumber>1000</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2012222_12500403</Id>
+    <Text>SAIR</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>SAIR</Function>
+    <Password />
+    <FontDescription>Sans Bold 11</FontDescription>
+    <FontColor>
+      <Pixel>68</Pixel>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </FontColor>
+    <Style>8</Style>
+    <Image>sair</Image>
+    <Align>Bottom</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>0</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>0</Left>
+    <Right>2</Right>
+    <Top>0</Top>
+    <Bottom>1</Bottom>
+    <Id>Id_2013930_104043636635161344436360908</Id>
+    <Text>RELATÓRIOS ESPECIAIS</Text>
+    <Height>122</Height>
+    <Width>252</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 12</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>1</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>0</Left>
+    <Right>2</Right>
+    <Top>0</Top>
+    <Bottom>1</Bottom>
+    <Id>Id_2013930_104043636635161344436360908</Id>
+    <Text>RELATÓRIOS ESPECIAIS</Text>
+    <Height>122</Height>
+    <Width>252</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 12</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>0</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2013930_104132654635161344926548945</Id>
+    <Text>Mesas Abertas</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>MABERTAS</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>5</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>1</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2013930_104158784635161345187843890</Id>
+    <Text>Mapa de Anulações</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>MOVANUL</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>5</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>2</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2013930_104229560635161345495601493</Id>
+    <Text>Documentos Anulados</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>MOVANULT</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>5</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>3</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>3</Left>
+    <Right>4</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2013930_104349823635161346298237401</Id>
+    <Text>Faturas do Dia</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>MOVDIA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>5</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>4</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>4</Left>
+    <Right>5</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2013930_10441155635161346510559545</Id>
+    <Text>Faturas por Data</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>MOVDIAT</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>5</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>5</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2013930_141454139635161472941390886</Id>
+    <Text>Relatório de Fecho de Caixa</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>CXCLOSELOG</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>5</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>0</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2013930_104437639635161346776394750</Id>
+    <Text>Mesas Abertas Detalhes</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>MOVMABERTAS</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>5</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>1</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2013930_104533334635161347333346606</Id>
+    <Text>Total de Faturas</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>TOTDIA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>5</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>2</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2013930_14713464635161468334647395</Id>
+    <Text>Total de Faturas por Data</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>TOTDIAT</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>5</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>3</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>3</Left>
+    <Right>4</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2013930_14748575635161468685757478</Id>
+    <Text>Transferência de Mesas</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>TRANS_HIST</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>5</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>4</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>4</Left>
+    <Right>5</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2013930_104510615635161347106153611</Id>
+    <Text>Lucro por Artigo</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PROFIT</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>5</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>5</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2013930_14186738635161474867381046</Id>
+    <Text>Consulta Valores do Dia</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>CDIA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>5</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>0</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>0</Left>
+    <Right>2</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2013930_14121451635161471214512114</Id>
+    <Text>OUTRAS FUNÇÕES</Text>
+    <Height>122</Height>
+    <Width>252</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 12</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>1</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>0</Left>
+    <Right>2</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2013930_14121451635161471214512114</Id>
+    <Text>OUTRAS FUNÇÕES</Text>
+    <Height>122</Height>
+    <Width>252</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 12</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>0</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2013930_141032575635161470325751280</Id>
+    <Text>Reimpressão Fecho de Dia</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>RFDIA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>1</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2013930_141147755635161471077554281</Id>
+    <Text>Segunda Via</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>SEGVIA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>2</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2013930_141343956635161472239560744</Id>
+    <Text>Emissão de Recibos</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>RECEIPTS</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>3</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>3</Left>
+    <Right>4</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2013930_141412947635161472529477326</Id>
+    <Text>Aviso de Vencimento</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>LIQWARN</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>4</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>4</Left>
+    <Right>5</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2013930_141541154635161473411547778</Id>
+    <Text>Número de Pessoas da Mesa</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PEOPLE</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>5</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2013930_142013553635161476135533581</Id>
+    <Text>FAMI X</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>FAMI_X</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>0</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013930_14172865635161474480658927</Id>
+    <Text>Abrir Gaveta de Dinheiro</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>GAVETA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>1</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013930_141912545635161475525458686</Id>
+    <Text>Produto Gerérico</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>ITEMGENERICO</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>2</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013930_142041984635161476419849843</Id>
+    <Text>X64</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>X64SHOW</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>3</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>3</Left>
+    <Right>4</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013930_142041200635161476412009394</Id>
+    <Text>Abrir Gaveta</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>GAVETA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>4</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>4</Left>
+    <Right>5</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013930_14216176635161476661763679</Id>
+    <Text>Mesas Gráficas</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>MESA_IMG</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>7</Style>
+    <Image>[ Select ]</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>5</Y>
+    <PageNumber>1004</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013930_14226895635161477268958409</Id>
+    <Text>VOLTAR</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>71</Pixel>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </FontColor>
+    <Style>[ Select ]</Style>
+    <Image>voltar</Image>
+    <Align>Center</Align>
+    <AlignImage />
+    <Parameter>1000</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>0</Y>
+    <PageNumber>1</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2025820_103638879638912829988790837</Id>
+    <Text>TRANSFERIR</Text>
+    <Height>122</Height>
+    <Width>122</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>TRANMESA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>transfers</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>CenterCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>1</Y>
+    <PageNumber>1</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2023119_9372919638097178490190556</Id>
+    <Text>OBSERVAÇÃO</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>KITCHENMESSAGE</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>spreadsheet</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>2</Y>
+    <PageNumber>1</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2013311_154115344634986132753444506</Id>
+    <Text>CARDAPIO</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>famix</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>1008</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>3</Y>
+    <PageNumber>1</PageNumber>
+    <Left>3</Left>
+    <Right>4</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2013311_154115191634986132751913480</Id>
+    <Text>COMANDA</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>MESA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>botao Longo</Style>
+    <Image>price</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>4</Y>
+    <PageNumber>1</PageNumber>
+    <Left>4</Left>
+    <Right>6</Right>
+    <Top>4</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013311_154115497634986132754975527</Id>
+    <Text>FECHAR CONTA  F3</Text>
+    <Height>251</Height>
+    <Width>253</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>total</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>1002</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>5</Y>
+    <PageNumber>1</PageNumber>
+    <Left>4</Left>
+    <Right>6</Right>
+    <Top>4</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013311_154115497634986132754975527</Id>
+    <Text>FECHAR CONTA  F3</Text>
+    <Height>251</Height>
+    <Width>253</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>total</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>1002</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>0</Y>
+    <PageNumber>1</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013311_154115650634986132756506556</Id>
+    <Text>OPERAÇÕES</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>config</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>900</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>1</Y>
+    <PageNumber>1</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013311_154115548634986132755485868</Id>
+    <Text>DELIVERY</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>DELIVERY_NOVO</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>takeaway</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>2</Y>
+    <PageNumber>1</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013311_154115446634986132754465189</Id>
+    <Text>PESQUISA PRODUTO</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>KEYBPRODUCT</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>menu</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>3</Y>
+    <PageNumber>1</PageNumber>
+    <Left>3</Left>
+    <Right>4</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013311_154115395634986132753954847</Id>
+    <Text>CONTA</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>SCONTA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>subtotal</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>4</Y>
+    <PageNumber>1</PageNumber>
+    <Left>4</Left>
+    <Right>6</Right>
+    <Top>4</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013311_154115497634986132754975527</Id>
+    <Text>FECHAR CONTA  F3</Text>
+    <Height>251</Height>
+    <Width>253</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>total</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>1002</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>5</Y>
+    <PageNumber>1</PageNumber>
+    <Left>4</Left>
+    <Right>6</Right>
+    <Top>4</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2013311_154115497634986132754975527</Id>
+    <Text>FECHAR CONTA  F3</Text>
+    <Height>251</Height>
+    <Width>253</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>total</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>1002</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>6</X>
+    <Y>1</Y>
+    <PageNumber>1008</PageNumber>
+    <Left>1</Left>
+    <Right>3</Right>
+    <Top>6</Top>
+    <Bottom>8</Bottom>
+    <Id>Id_2016523_152516643635996139166431930</Id>
+    <Text>VOLTAR</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>3171</Red>
+      <Green>3171</Green>
+      <Blue>3171</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>voltar</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>CenterCenter</AlignImage>
+    <Parameter>1</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>6</X>
+    <Y>2</Y>
+    <PageNumber>1008</PageNumber>
+    <Left>1</Left>
+    <Right>3</Right>
+    <Top>6</Top>
+    <Bottom>8</Bottom>
+    <Id>Id_2016523_152516643635996139166431930</Id>
+    <Text>VOLTAR</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>3171</Red>
+      <Green>3171</Green>
+      <Blue>3171</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>voltar</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>CenterCenter</AlignImage>
+    <Parameter>1</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>6</X>
+    <Y>3</Y>
+    <PageNumber>1008</PageNumber>
+    <Left>3</Left>
+    <Right>5</Right>
+    <Top>6</Top>
+    <Bottom>8</Bottom>
+    <Id>Id_2023119_93840219638097179202198914</Id>
+    <Text>OBSERVAÇÃO</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>KITCHENMESSAGE</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>spreadsheet</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>CenterCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>6</X>
+    <Y>4</Y>
+    <PageNumber>1008</PageNumber>
+    <Left>3</Left>
+    <Right>5</Right>
+    <Top>6</Top>
+    <Bottom>8</Bottom>
+    <Id>Id_2023119_93840219638097179202198914</Id>
+    <Text>OBSERVAÇÃO</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>KITCHENMESSAGE</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>spreadsheet</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>CenterCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>6</X>
+    <Y>5</Y>
+    <PageNumber>1008</PageNumber>
+    <Left>5</Left>
+    <Right>7</Right>
+    <Top>6</Top>
+    <Bottom>8</Bottom>
+    <Id>Id_2016523_152516747635996139167476622</Id>
+    <Text>FECHAR CONTA</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>total</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>1002</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>6</X>
+    <Y>6</Y>
+    <PageNumber>1008</PageNumber>
+    <Left>5</Left>
+    <Right>7</Right>
+    <Top>6</Top>
+    <Bottom>8</Bottom>
+    <Id>Id_2016523_152516747635996139167476622</Id>
+    <Text>FECHAR CONTA</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>total</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>1002</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>7</X>
+    <Y>1</Y>
+    <PageNumber>1008</PageNumber>
+    <Left>1</Left>
+    <Right>3</Right>
+    <Top>6</Top>
+    <Bottom>8</Bottom>
+    <Id>Id_2016523_152516643635996139166431930</Id>
+    <Text>VOLTAR</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>3171</Red>
+      <Green>3171</Green>
+      <Blue>3171</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>voltar</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>CenterCenter</AlignImage>
+    <Parameter>1</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>7</X>
+    <Y>2</Y>
+    <PageNumber>1008</PageNumber>
+    <Left>1</Left>
+    <Right>3</Right>
+    <Top>6</Top>
+    <Bottom>8</Bottom>
+    <Id>Id_2016523_152516643635996139166431930</Id>
+    <Text>VOLTAR</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>3171</Red>
+      <Green>3171</Green>
+      <Blue>3171</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>voltar</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>CenterCenter</AlignImage>
+    <Parameter>1</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>7</X>
+    <Y>3</Y>
+    <PageNumber>1008</PageNumber>
+    <Left>3</Left>
+    <Right>5</Right>
+    <Top>6</Top>
+    <Bottom>8</Bottom>
+    <Id>Id_2023119_93840219638097179202198914</Id>
+    <Text>OBSERVAÇÃO</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>KITCHENMESSAGE</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>spreadsheet</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>CenterCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>7</X>
+    <Y>4</Y>
+    <PageNumber>1008</PageNumber>
+    <Left>3</Left>
+    <Right>5</Right>
+    <Top>6</Top>
+    <Bottom>8</Bottom>
+    <Id>Id_2023119_93840219638097179202198914</Id>
+    <Text>OBSERVAÇÃO</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>KITCHENMESSAGE</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>spreadsheet</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>CenterCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>7</X>
+    <Y>5</Y>
+    <PageNumber>1008</PageNumber>
+    <Left>5</Left>
+    <Right>7</Right>
+    <Top>6</Top>
+    <Bottom>8</Bottom>
+    <Id>Id_2016523_152516747635996139167476622</Id>
+    <Text>FECHAR CONTA</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>total</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>1002</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>7</X>
+    <Y>6</Y>
+    <PageNumber>1008</PageNumber>
+    <Left>5</Left>
+    <Right>7</Right>
+    <Top>6</Top>
+    <Bottom>8</Bottom>
+    <Id>Id_2016523_152516747635996139167476622</Id>
+    <Text>FECHAR CONTA</Text>
+    <Height>186</Height>
+    <Width>186</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>total</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>1002</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>0</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2022916_92232703637989169527034940</Id>
+    <Text>OPERAÇÕES DE CAIXA</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>1</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2022916_92232703637989169527034940</Id>
+    <Text>OPERAÇÕES DE CAIXA</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>2</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2022916_92232703637989169527034940</Id>
+    <Text>OPERAÇÕES DE CAIXA</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>3</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2022916_92232703637989169527034940</Id>
+    <Text>OPERAÇÕES DE CAIXA</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>4</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2022916_92232703637989169527034940</Id>
+    <Text>OPERAÇÕES DE CAIXA</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>5</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2022916_92232703637989169527034940</Id>
+    <Text>OPERAÇÕES DE CAIXA</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>0</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2022916_92232703637989169527034940</Id>
+    <Text>OPERAÇÕES DE CAIXA</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>1</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2022916_92232703637989169527034940</Id>
+    <Text>OPERAÇÕES DE CAIXA</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>2</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2022916_92232703637989169527034940</Id>
+    <Text>OPERAÇÕES DE CAIXA</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>3</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2022916_92232703637989169527034940</Id>
+    <Text>OPERAÇÕES DE CAIXA</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>4</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2022916_92232703637989169527034940</Id>
+    <Text>OPERAÇÕES DE CAIXA</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>5</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2022916_92232703637989169527034940</Id>
+    <Text>OPERAÇÕES DE CAIXA</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>0</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2022916_92232223637989169522239444</Id>
+    <Text>CAIXA</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>CAIXA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>CX</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>2</Y>
+    <PageNumber>900</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2023118_9151890638096301018907640</Id>
+    <Text>REIMPRIMIR CUPOM</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>SEGVIA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>print</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>5</Y>
+    <PageNumber>900</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2023117_134734683638095600546834901</Id>
+    <Text>MAIS OPERAÇÕES.......</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>config</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>800</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>0</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2025820_105621810638912841818102532</Id>
+    <Text>FECHAR TURNO</Text>
+    <Height>122</Height>
+    <Width>122</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>FTURNO</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>2</Y>
+    <PageNumber>900</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2022916_92232781637989169527811527</Id>
+    <Text>CANCELA CUPOM</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>ANULADOC</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>cancela</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>0</Y>
+    <PageNumber>900</PageNumber>
+    <Left>0</Left>
+    <Right>1</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2022916_92232301637989169523017738</Id>
+    <Text>FECHAR DIA</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>FDIA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>FDIA</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>2</Y>
+    <PageNumber>900</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2022916_92232625637989169526258902</Id>
+    <Text>ARQUIVOS CONTABILIDADE</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>NOTAS_FISCAIS_NFCE</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>SEND</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>5</Y>
+    <PageNumber>900</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2022916_92232456637989169524561645</Id>
+    <Text>VOLTAR</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>144181200</Pixel>
+      <Red>3558</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>voltar</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>CenterCenter</AlignImage>
+    <Parameter>1</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>0</Y>
+    <PageNumber>800</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2023118_91636255638096301962557396</Id>
+    <Text>OUTRAS OPERAÇÕES</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>1</Y>
+    <PageNumber>800</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2023118_91636255638096301962557396</Id>
+    <Text>OUTRAS OPERAÇÕES</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>2</Y>
+    <PageNumber>800</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2023118_91636255638096301962557396</Id>
+    <Text>OUTRAS OPERAÇÕES</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>3</Y>
+    <PageNumber>800</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2023118_91636255638096301962557396</Id>
+    <Text>OUTRAS OPERAÇÕES</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>4</Y>
+    <PageNumber>800</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2023118_91636255638096301962557396</Id>
+    <Text>OUTRAS OPERAÇÕES</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>0</X>
+    <Y>5</Y>
+    <PageNumber>800</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2023118_91636255638096301962557396</Id>
+    <Text>OUTRAS OPERAÇÕES</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>0</Y>
+    <PageNumber>800</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2023118_91636255638096301962557396</Id>
+    <Text>OUTRAS OPERAÇÕES</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>1</Y>
+    <PageNumber>800</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2023118_91636255638096301962557396</Id>
+    <Text>OUTRAS OPERAÇÕES</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>2</Y>
+    <PageNumber>800</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2023118_91636255638096301962557396</Id>
+    <Text>OUTRAS OPERAÇÕES</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>3</Y>
+    <PageNumber>800</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2023118_91636255638096301962557396</Id>
+    <Text>OUTRAS OPERAÇÕES</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>4</Y>
+    <PageNumber>800</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2023118_91636255638096301962557396</Id>
+    <Text>OUTRAS OPERAÇÕES</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>5</Y>
+    <PageNumber>800</PageNumber>
+    <Left>0</Left>
+    <Right>6</Right>
+    <Top>0</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_2023118_91636255638096301962557396</Id>
+    <Text>OUTRAS OPERAÇÕES</Text>
+    <Height>251</Height>
+    <Width>769</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>[ Select ]</Function>
+    <Password />
+    <FontDescription>Sans Bold 36</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>transparent</Style>
+    <Image>[ Select ]</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>1</Y>
+    <PageNumber>800</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2023118_91637287638096301972879364</Id>
+    <Text>REABRIR COMANDA</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>ANPAGAR</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>export</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>2</Y>
+    <PageNumber>800</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2023118_91637366638096301973667820</Id>
+    <Text>ALTERAR PAGAMENTO</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>ALTERPAG</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>transfers</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>5</Y>
+    <PageNumber>800</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_2023118_91637210638096301972103600</Id>
+    <Text>ENVIAR MENSAGEM</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>MSG_MOBILE</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>exit</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>1</Y>
+    <PageNumber>800</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2023118_91637677638096301976777600</Id>
+    <Text>VENDAS NO TERMINAL</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>CDIATERMINAL</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>price</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>2</Y>
+    <PageNumber>800</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_2023118_91637444638096301974446876</Id>
+    <Text>VENDAS DO USUARIO</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>CDIAEMPR</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>order</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>1</Y>
+    <PageNumber>800</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2023118_91637522638096301975223558</Id>
+    <Text>EXTRATO CLIENTE</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>LIQWARN</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>customers</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>4</X>
+    <Y>2</Y>
+    <PageNumber>800</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>4</Top>
+    <Bottom>5</Bottom>
+    <Id>Id_2023119_9340823638097176408230228</Id>
+    <Text>RECEBER PENDENCIA</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>RECEIPTS</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>money</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>5</Y>
+    <PageNumber>800</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_2023118_91637755638096301977555921</Id>
+    <Text>VOLTAR</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 12</FontDescription>
+    <FontColor>
+      <Pixel>148950368</Pixel>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>voltar</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>CenterCenter</AlignImage>
+    <Parameter>1</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>1</Y>
+    <PageNumber>40</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_20251117_165021355638989950213553093</Id>
+    <Text>REIMPRIMIR CUPOM</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>SEGVIA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>print</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>2</Y>
+    <PageNumber>40</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_20251117_165021593638989950215930521</Id>
+    <Text>CANCELA CUPOM</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>ANULADOC</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>cancela</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>1</X>
+    <Y>3</Y>
+    <PageNumber>40</PageNumber>
+    <Left>3</Left>
+    <Right>4</Right>
+    <Top>1</Top>
+    <Bottom>2</Bottom>
+    <Id>Id_20251117_165021434638989950214348827</Id>
+    <Text>MAIS OPERAÇÕES.......</Text>
+    <Height>122</Height>
+    <Width>123</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>config</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter>800</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>1</Y>
+    <PageNumber>40</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_20251117_165021276638989950212768992</Id>
+    <Text>CAIXA</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>CAIXA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>CX</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>2</Y>
+    <PageNumber>40</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_20251117_165021513638989950215132456</Id>
+    <Text>FECHAR TURNO</Text>
+    <Height>122</Height>
+    <Width>122</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>FTURNO</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>2</X>
+    <Y>3</Y>
+    <PageNumber>40</PageNumber>
+    <Left>3</Left>
+    <Right>4</Right>
+    <Top>2</Top>
+    <Bottom>3</Bottom>
+    <Id>Id_20251117_165021672638989950216725780</Id>
+    <Text>FECHAR DIA</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>FDIA</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>FDIA</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>3</X>
+    <Y>1</Y>
+    <PageNumber>40</PageNumber>
+    <Left>1</Left>
+    <Right>2</Right>
+    <Top>3</Top>
+    <Bottom>4</Bottom>
+    <Id>Id_20251117_165052490638989950524900163</Id>
+    <Text>SAQUERITA</Text>
+    <Height>122</Height>
+    <Width>122</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>ITEM_N</Function>
+    <Password />
+    <FontDescription>Sans 13</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>1</Style>
+    <Image>[ Select ]</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>BottomCenter</AlignImage>
+    <Parameter>7</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>2</Y>
+    <PageNumber>40</PageNumber>
+    <Left>2</Left>
+    <Right>3</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_20251117_165021752638989950217521428</Id>
+    <Text>ARQUIVOS CONTABILIDADE</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>BR_EXTRATO_SAT</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>0</Pixel>
+      <Red>65535</Red>
+      <Green>65535</Green>
+      <Blue>65535</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>SEND</Image>
+    <Align>BottomCenter</Align>
+    <AlignImage>TopCenter</AlignImage>
+    <Parameter />
+    <ParameterPage />
+  </XmlButtonBE>
+  <XmlButtonBE>
+    <X>5</X>
+    <Y>5</Y>
+    <PageNumber>40</PageNumber>
+    <Left>5</Left>
+    <Right>6</Right>
+    <Top>5</Top>
+    <Bottom>6</Bottom>
+    <Id>Id_20251117_165021831638989950218313783</Id>
+    <Text>VOLTAR</Text>
+    <Height>123</Height>
+    <Width>124</Width>
+    <ItemId />
+    <Script>[ Select ]</Script>
+    <Function>PAG_N</Function>
+    <Password />
+    <FontDescription>Sans Bold 10</FontDescription>
+    <FontColor>
+      <Pixel>144181200</Pixel>
+      <Red>3558</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </FontColor>
+    <Style>Botao</Style>
+    <Image>voltar</Image>
+    <Align>CenterCenter</Align>
+    <AlignImage>CenterCenter</AlignImage>
+    <Parameter>1</Parameter>
+    <ParameterPage />
+  </XmlButtonBE>
+</ArrayOfXmlButtonBE>
